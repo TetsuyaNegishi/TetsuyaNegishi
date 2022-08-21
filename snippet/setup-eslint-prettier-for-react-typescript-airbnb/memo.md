@@ -16,3 +16,18 @@ npm install --dev eslint eslint-config-airbnb eslint-config-airbnb-typescript es
 	}
 }
 ```
+
+## vscode settings
+
+```
+{
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true, // eslint
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true
+  }
+}
+```
